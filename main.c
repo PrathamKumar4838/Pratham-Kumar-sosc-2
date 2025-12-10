@@ -30,7 +30,6 @@ void display_note(Note n) {
     printf("Working Post: %s\n", n.content);
 }
 
-// Function to find the array index given an ID
 int find_id(int id) {
     for (int i = 0; i < note_count; i++) {
         if (notes[i].id == id) return i;
@@ -180,3 +179,4 @@ int main() {
     return 0;
 
 }
+
