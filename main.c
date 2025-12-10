@@ -2,19 +2,16 @@
 #include <string.h>
 #include <stdlib.h>
 
-// --- Simplified Constants ---
 #define Title 80
 #define Content 300
 #define Notes 10
 
-// --- Data Structure ---
 typedef struct {
     int id;
     char title[Title];
     char content[Content];
 } Note;
 
-// Global state
 Note notes[Notes];
 int note_count = 0;
 int next_id = 1;
@@ -41,9 +38,6 @@ int find_id(int id) {
     return -1; 
 }
 
-
-
-// 1. CREATE
 void create_note() {
     if (note_count >= Notes) {
         printf("\n\tMax notes limit reached!\n");
@@ -74,7 +68,6 @@ while (new_note.title[i] != '\0') {
     printf("\t Data %d created.\n", new_note.id);
 }
 
-// 2. VIEW ALL
 void view_notes() {
     if (note_count == 0) {
         printf("\n\t No Data available. \n");
@@ -86,7 +79,6 @@ void view_notes() {
     }
 }
 
-// 3. SEARCH
 void search_notes() {
     char term[Title];
     printf("\n[3] SEARCH EMPLOYEE DATA\n");
@@ -105,7 +97,6 @@ void search_notes() {
     if (found == 0) printf("\t No matches found.\n");
 }
 
-// 4. EDIT
 void edit_note() {
     int id;
     printf("\n[4] EDIT EMPLOYEE DATA\n");
@@ -132,7 +123,6 @@ void edit_note() {
     printf("\t Data %d updated.\n", id);
 }
 
-// 5. DELETE
 void delete_note() {
     int id;
     printf("\n[5] DELETE EMPLOYEE DATA\n");
@@ -188,4 +178,5 @@ int main() {
     } while (choice != 6);
 
     return 0;
+
 }
