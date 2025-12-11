@@ -1,0 +1,119 @@
+Example
+
+============================================
+
+Simple C Notes to maintain employee Details
+
+============================================
+
+Create Employee Data
+View All Employee Details
+Search Employee details
+Edit Employee Data
+Delete Employee details
+Exit
+Enter choice: 1
+
+[1] CREATE Employee Details
+
+Name: Pratham
+
+Working Post(single line): Software Developer
+
+    Data 1 created.
+============================================
+
+Simple C Notes to maintain employee Details
+
+============================================
+
+Create Employee Data
+View All Employee Details
+Search Employee details
+Edit Employee Data
+Delete Employee details
+Exit
+Enter choice: 1
+
+[1] CREATE Employee Details
+
+Name: Dhanvith
+
+Working Post(single line): Technician
+
+    Data 2 created.
+============================================
+
+Simple C Notes to maintain employee Details
+
+============================================
+
+Create Employee Data
+View All Employee Details
+Search Employee details
+Edit Employee Data
+Delete Employee details
+Exit
+Enter choice: 2
+
+[2] VIEW ALL DATA (2 Total)
+
+Employee ID: 1 | Employee Name: Pratham
+
+Working Post: Software Developer
+
+Employee ID: 2 | Employee Name: Dhanvith
+
+Working Post: Technician
+
+This shows creating two employees and then using option 2 to display all stored records.
+
+============================================
+
+Simple C Notes to maintain employee Details
+
+============================================
+
+Create Employee Data
+View All Employee Details
+Search Employee details
+Edit Employee Data
+Delete Employee details
+Exit
+Enter choice: 3
+
+[3] SEARCH EMPLOYEE DATA
+
+Enter Employee name to search: Pratham
+
+Results for 'Pratham'
+
+Employee ID: 1 | Employee Name: Pratham
+
+Working Post: Software Developer
+
+Enter choice: 4
+
+[4] EDIT EMPLOYEE DATA
+
+Enter Employee ID to edit: 1
+
+Editing Data 1 (Current Employee Name: Pratham)
+
+New Name(or press Enter to skip): Panish
+
+    Data 1 updated.
+Enter choice: 5
+
+[5] DELETE EMPLOYEE DATA
+
+Enter Employee ID to delete: 2
+
+       Employee Data of ID 2 deleted.
+Enter choice: 2
+
+[2] VIEW ALL DATA (1 Total)
+
+Employee ID: 1 | Employee Name: Panish
+
+Working Post: Software Developer
